@@ -16,6 +16,7 @@ double Lagrange(vector<double> x, vector<double> y, double x0, int n)
         }
         result += term;
     }
+    
     return result;
 }
 
